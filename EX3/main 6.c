@@ -10,7 +10,7 @@ int main() {
     }
     else {
         if(i%30) {
-            int h = ((i/30)+1)*30;
+            int h = ((i/30)+1)*30;  // 61 分鐘 → 要收 90 元
             printf("%d 元", h);
         }
         else {
