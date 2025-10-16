@@ -2,7 +2,7 @@
 
 void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod) {
     if(n==1) {
-        printf("\n Move disk 1 from fod %c to rod %c, from_rod, to_rod");
+        printf("\n Move disk 1 from fod %c to rod %c", from_rod, to_rod);
         return;
     }
     towerOfHanoi(n-1, from_rod, aux_rod, to_rod);
